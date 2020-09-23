@@ -20,9 +20,6 @@ import colors from '../constants/colors';
 
 const { isSameUser, isSameDay } = utils;
 
-// modified but based off this example
-// https://github.com/FaridSafi/react-native-gifted-chat/tree/master/example-slack-message
-
 class MessageBubble extends React.Component {
   constructor(props) {
     super(props);

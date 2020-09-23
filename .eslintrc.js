@@ -1,5 +1,3 @@
-const path = require('path');
-
 module.exports = {
   extends: ['airbnb', 'airbnb/hooks'],
   parser: 'babel-eslint',
@@ -50,10 +48,9 @@ module.exports = {
     'implicit-arrow-linebreak': 0,
     'object-curly-newline': 0,
     // use prettier for these
-    'max-len': 0,
-    'function-paren-newline': 0,
     'no-confusing-arrow': 0,
     'generator-star-spacing': 0,
     'operator-linebreak': 0,
+    'no-use-before-define': 0,
   },
 };
