@@ -10,7 +10,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['jest'],
+  plugins: ['jest', 'jsx-a11y', 'prettier'],
   env: {
     jest: true,
   },
@@ -24,6 +24,7 @@ module.exports = {
     // },
   },
   rules: {
+    'prettier/prettier': 'error',
     'react/jsx-filename-extension': 0,
     'react/jsx-wrap-multilines': 0,
     'react/jsx-closing-tag-location': 0,

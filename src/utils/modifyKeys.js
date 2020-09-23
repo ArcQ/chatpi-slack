@@ -3,7 +3,9 @@ const modifyKeys = (ds, modifier) => {
   let newDs;
   if (Array.isArray(ds)) {
     newDs = [];
-    newDs = ds.map(v => (typeof v === 'object' ? modifyKeys(v, modifier) : v));
+    newDs = ds.map((v) =>
+      typeof v === 'object' ? modifyKeys(v, modifier) : v,
+    );
   } else {
     newDs = {};
     Object.entries(ds).forEach(([k, v]) => {

@@ -6,11 +6,7 @@
     "slug": "chatpislacktemplate",
     "privacy": "public",
     "version": "0.0.1",
-    "platforms": [
-      "android",
-      "ios",
-      "web"
-    ],
+    "platforms": ["android", "ios", "web"],
     "orientation": "portrait",
     "primaryColor": "#ffffff",
     "icon": "src/assets/icon.png",
@@ -22,9 +18,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "android": {
       "versionCode": 1
     },
